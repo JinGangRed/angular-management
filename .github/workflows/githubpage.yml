@@ -20,7 +20,7 @@ jobs:
           npm run build
       
       - name: Deploy
-        use: JamesIves/github-pages-deploy-action@3.5.7
+        uses: JamesIves/github-pages-deploy-action@3.5.7
         with: 
           BRANCH: gh-pages
           FOLDER: build
